@@ -16,10 +16,10 @@
 			<artifactId>junit</artifactId>
 			<version>3.8.1</version>
 			<scope>test</scope>
-			<configuration>
-                <source>1.8</source>
-                <target>1.8</target>
-            </configuration>
+			<properties>
+                        <maven.compiler.source>1.8</maven.compiler.source>
+                        <maven.compiler.target>1.8</maven.compiler.target>
+                        </properties>        
 		</dependency>
 
 	</dependencies>
